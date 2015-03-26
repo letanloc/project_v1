@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textColor="#FFF"
+            android:fontFamily="sans-serif-medium"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ghi nhớ đường huyết"
+            android:textSize="30dp"
+            android:id="@+id/textView7"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/imageButton"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_action_name3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginRight="8dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:id="@+id/editText"
+            android:layout_alignBottom="@+id/imageButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="22/12/2015" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="Lượng đường:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:id="@+id/textView22"
+            android:layout_below="@+id/imageButton"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text=" mg"
+            android:gravity="center_vertical"
+            android:id="@+id/textView23"
+            android:layout_alignBottom="@+id/textView22"
+            android:layout_alignRight="@+id/editText"
+            android:layout_alignEnd="@+id/editText" />
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="100"
+            android:gravity="center_vertical|right"
+            android:id="@+id/textView24"
+            android:layout_alignBottom="@+id/textView23"
+            android:layout_toLeftOf="@+id/textView23"
+            android:layout_toStartOf="@+id/textView23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:text="Ghi chú:"
+            android:id="@+id/textView25"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#00aacc"
+            android:gravity="left|top"
+            android:id="@+id/editText2"
+            android:layout_below="@+id/textView25"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Note contents" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="CHẤP NHẬN"
+            android:textColor="#009688"
+            android:id="@+id/button2"
+            android:textStyle="bold"
+            android:fontFamily="Roboto-Thin italic"
+            android:layout_below="@+id/editText2"
+            android:layout_toLeftOf="@+id/button"
+            android:layout_toStartOf="@+id/button"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="HỦY"
+            android:textColor="#009688"
+            android:textStyle="bold"
+            android:id="@+id/button"
+            android:fontFamily="Roboto-Thin italic"
+            android:layout_alignTop="@+id/button2"
+            android:layout_alignRight="@+id/textView23"
+            android:layout_alignEnd="@+id/textView23" />
+
+    </RelativeLayout>
+
+</LinearLayout>

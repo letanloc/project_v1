@@ -1,0 +1,241 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/system_app_bar"
+        android:id="@+id/app_bar" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="72dp">
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Thông tin của bạn"
+            android:id="@+id/textView" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="55dp"
+                android:src="@drawable/ic_demo" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginRight="16dp"
+                android:layout_height="48dp"
+                android:id="@+id/edtName"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Tên của ban"
+                android:layout_alignBottom="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_toEndOf="@+id/imageView">
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView2"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/ic_demo"
+                android:layout_below="@+id/imageView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txtNameError"
+                android:textColor="@color/colorAccent"
+                android:layout_below="@+id/edtName"
+                android:layout_marginLeft="4dp"
+                android:layout_alignLeft="@+id/edtName"
+                android:layout_alignStart="@+id/edtName" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:id="@+id/a"
+                android:weightSum="100"
+                android:layout_marginRight="16dp"
+                android:layout_alignBottom="@+id/imageView2"
+                android:layout_alignLeft="@+id/edtName"
+                android:layout_alignStart="@+id/edtName"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/edtAge"
+                    android:hint="Tuổi"
+                    android:fontFamily="sans-serif-condensed"
+                    android:inputType="number"
+                    android:layout_weight="50" />
+
+                <Spinner
+                    android:id="@+id/planets_spinner"
+                    android:layout_weight="50"
+                    android:dropDownSelector="@color/colorPrimaryDark"
+                    android:background="@drawable/abc_spinner_textfield_background_material"
+                    android:popupBackground="@drawable/abc_list_selector_background_transition_holo_light"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txtAgeError"
+                android:textColor="@color/colorAccent"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignLeft="@+id/txtNameError"
+                android:layout_alignStart="@+id/txtNameError" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/ic_demo"
+                android:layout_marginRight="16dp"
+                android:layout_alignBottom="@+id/edtsuger"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignStart="@+id/imageView2" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:id="@+id/edtsuger"
+                android:layout_marginRight="16dp"
+                android:hint="Lượng đường huyết"
+                android:inputType="number"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_below="@+id/txtAgeError"
+                android:layout_alignLeft="@+id/a"
+                android:layout_alignStart="@+id/a" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txtSugerEroor"
+                android:textColor="@color/colorAccent"
+                android:layout_below="@+id/edtsuger"
+                android:layout_alignLeft="@+id/txtAgeError"
+                android:layout_alignStart="@+id/txtAgeError" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:id="@+id/container"
+                android:weightSum="100"
+                android:layout_marginRight="16dp"
+                android:layout_below="@+id/txtSugerEroor"
+                android:layout_alignLeft="@+id/edtsuger"
+                android:layout_alignStart="@+id/edtsuger">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dp"
+                    android:id="@+id/edtHeight"
+                    android:inputType="numberDecimal"
+                    android:hint="Chiều cao"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_weight="50" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dp"
+                    android:hint="Cân nặng"
+                    android:inputType="number"
+                    android:id="@+id/edtWeight"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="50" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/ic_demo"
+                android:layout_alignBottom="@+id/container"
+                android:layout_alignLeft="@+id/imageView3"
+                android:layout_alignStart="@+id/imageView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txthwError"
+                android:textColor="@color/colorAccent"
+                android:layout_below="@+id/container"
+                android:layout_alignLeft="@+id/txtSugerEroor"
+                android:layout_alignStart="@+id/txtSugerEroor" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="0.0"
+                android:layout_marginLeft="16dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#009688"
+                android:id="@+id/txtcalor"
+                android:layout_below="@+id/txthwError"
+                android:layout_alignRight="@+id/container"
+                android:layout_alignEnd="@+id/container" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="48dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Calo"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:id="@+id/textView9"
+                android:textColor="#009688"
+                android:layout_alignTop="@+id/txtcalor"
+                android:layout_toLeftOf="@+id/txtcalor"
+                android:layout_toStartOf="@+id/txtcalor" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

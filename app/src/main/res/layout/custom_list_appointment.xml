@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/custom_list_appointment">
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:id="@+id/imgIcons"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_demo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:30"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="4dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/txtTime"
+        android:layout_alignTop="@+id/imgIcons"
+        android:layout_toRightOf="@+id/imgIcons"
+        android:layout_toEndOf="@+id/imgIcons" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/12/2012"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/colorSecondaryText"
+        android:id="@+id/txtDate"
+        android:layout_alignBottom="@+id/txtTime"
+        android:layout_toLeftOf="@+id/imageView5"
+        android:layout_toStartOf="@+id/imageView5" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:text="Not"
+        android:textColor="@color/colorSecondaryText"
+        android:id="@+id/txtAdress"
+        android:fontFamily="sans-serif-medium"
+        android:layout_below="@+id/txtTime"
+        android:layout_toRightOf="@+id/imgIcons"
+        android:layout_toStartOf="@+id/imageView5"
+        android:layout_alignRight="@+id/txtDate"
+        android:layout_alignEnd="@+id/txtDate" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_marginRight="16dp"
+        android:layout_alignTop="@+id/txtTime"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_action_name4"
+        android:layout_alignBottom="@+id/imgIcons" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCC"
+
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/imgIcons"
+        android:layout_toRightOf="@+id/imgIcons"
+        android:layout_toEndOf="@+id/imgIcons" />
+
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-cdf3d714e732858337d5bf540a8e5447395354da.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\me.tatarka.support\jobscheduler\0.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d5fa4ca32cbbd491d4e027d16f02e897dfed0f2">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-44f728f976e31eeb17d71bb5437a85e9d00959a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\org.lucasr.dspec\dspec\0.1.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dab41681007f3d86a532a5d90295cc6feb9e258b">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-27a6b5e0133ea9e1a8abb4dfc95ca14c46015108.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\library-2.4.0-01de47f154ddb15d2fc1cbb13ceb79c202ea5498.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\org.jraf\android-switch-backport\2.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b64b1b6502207cfd29d9949482179366709970a8">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-151c4b4c8f3d728458522e090478199d640401f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-0b8c3cbf695e179f2a7fdf4cad12e323ead4bfc1.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-95ef88f46cf26aa9fcef21cfa8d56f374051b94c.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\com.github.markushi\android-ui\1.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="96436aef5f48b09aca1e0183dfcd7782aa580bd6">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-ac4c27bdd58a79ca302db3ffe0caba23fa24a2f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-a9598f022c46293cb5f882d3eef7af7231b3a300.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-2cec0b7f4a256bb53984376322f4588916eb6051.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\jp.wasabeef\recyclerview-animators\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee2417303712f2959fc9d726c67881daaf3c054">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-cf296ef52a6abdfb76c2a9ac6fbaf4119890b66f.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\com.telly\mrvector\0.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e9cd6fddebfe1293fe1bf4c0c6b1ac27a8d91a0">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-31218a23f77e21040b4f5e8b9a0b7307e053d489.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\com.github.dmytrodanylyk.shadow-layout\library\1.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4bfee0fd6aa71027dc9dabae3076f529359a1fde">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-01224a76e6980471efa97172026f0486bdf44d30.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-16257546ffa4f0b75b17277ec304afe14d8d18e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\com.oguzdev\CircularFloatingActionMenu\1.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-5afd2996d1310a5922fa0492fe5f077590fedb07.jar" />
+    </item>
+    <item
+        jar="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\exploded-aar\it.neokree\MaterialTabs\0.11\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fef6aa7ea0bb2d6adf10965d0a5bb8e353517bff">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\classes-37e6eb7d2cbd366ec63ec6fbd0b70d11c4619915.jar" />
+    </item>
+    <item
+        jar="D:\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\lee\Documents\Project-Spring-2015-Android-master\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-6780acbff0a2a1bde1a6a60a2a9181c242ada5f7.jar" />
+    </item>
+
+</items>
